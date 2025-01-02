@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c74390-94f1-4590-b7db-15611e700f47" name="Changes" comment="" />
+    <list default="true" id="89c74390-94f1-4590-b7db-15611e700f47" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/Tetris/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +18,15 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0beb96d31db641cf82014cb1a758a330b2dc00/10/7e82d49c/Thread.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49bab08708434a08802510b75a8ea3691b3400/16/0282d8ce/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49bab08708434a08802510b75a8ea3691b3400/70/201497eb/SdlGamePlatform.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -28,31 +34,33 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2qpBP23pzNKsyNUJhJVje4kGAUm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.Tetris (1).executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Tetris.executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish Tetris to folder (1).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish Tetris to folder (2).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish Tetris to folder (3).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish Tetris to folder.executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Tetris Debug - Linux.executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Tetris Debug - Windows.executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Tetris-Publish.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.Tetris (1).executor": "Run",
+    ".NET Project.Tetris.executor": "Run",
+    "Publish to folder.Publish Tetris to folder (1).executor": "Run",
+    "Publish to folder.Publish Tetris to folder (2).executor": "Run",
+    "Publish to folder.Publish Tetris to folder (3).executor": "Run",
+    "Publish to folder.Publish Tetris to folder.executor": "Run",
+    "Publish to folder.Tetris Debug - Linux.executor": "Run",
+    "Publish to folder.Tetris Debug - Windows.executor": "Run",
+    "Publish to folder.Tetris-Publish.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.Tetris">
     <configuration name="Tetris Debug - Linux" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="Debug" delete_existing_files="true" platform="Any CPU" produce_single_file="true" runtime="linux-x64" target_folder="$PROJECT_DIR$/Tetris/bin/Debug/net8.0/linux-x64/publish" target_framework="net8.0" uuid_high="245847790211256004" uuid_low="-6105784080346295801" />
@@ -98,16 +106,39 @@
       <workItem from="1735356370685" duration="1015000" />
       <workItem from="1735407880659" duration="2781000" />
       <workItem from="1735410668506" duration="44414000" />
-      <workItem from="1735511384254" duration="65722000" />
+      <workItem from="1735511384254" duration="65974000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1735788965480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735788965480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
